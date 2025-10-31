@@ -15,6 +15,6 @@ spec:
       containers:
       - name: wisecow
         image: wisecow:latest
-        imagePullPolicy: Always  # <- Add this line
+        imagePullPolicy: Never   # <- Add this line
         ports:
         - containerPort: 4499
